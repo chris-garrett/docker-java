@@ -1,0 +1,12 @@
+# docker-java
+
+* Java runtime image ${VERSION}
+
+## Versions
+- openjdk/alpine ${VERSION}
+
+## Usage
+
+```docker run --rm -v `pwd`/src:/app/src chrisgarrett/java java -version```
+
+## Credits
